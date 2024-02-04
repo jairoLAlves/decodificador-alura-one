@@ -100,9 +100,8 @@ function main(){
 
 window.addEventListener('resize', function(){
 
-    var screenWidth = screen.width;
-
-    if(screenWidth < 768){
+    var screenWidth = window.innerWidth;
+    if(screenWidth < 770 ){
        
 
         if(conteudo_left.contains(logo2)){
