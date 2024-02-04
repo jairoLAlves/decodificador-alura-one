@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - Alura - ONE - 2024</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+    
+</head>
+<body>
+
+    
+    <main class="conteudo_main">
+        
+    <section class="conteudo_main__body">
+
+       <div class="conteudo_main__body__title">
+           <img src="img/logo_alura.svg" alt="Logo Alura" class="logo_alura">
+           <strong>Decodificador - Alura - ONE - 2024</strong>
+
+       </div> 
+       
+
+        <div class="conteudo_centro">
+            <textarea type="text" name="cripto_textarea"
+             id="conteudo_centro__cripto_textarea" 
+            
+            >
+              
+            </textarea>
+
+            <div class="conteudo_centro__footer">
+                <section>
+                    <img src="img/exclamation-circle-fill.svg" alt="" class="conteudo_centro__info_logo">
+                    <strong class="conteudo_centro__text_info">Apenas letras minúsculas e sem acento.</strong>
+                </section>
+    
+                <section class="conteudo_centro__botoes">
+                    <a onclick="cripitografar()" class="conteudo_centro__btn conteudo_centro__btn_criptografar btn_style1">Criptografar</a>
+                    <a onclick="descripitografar()" class="conteudo_centro__btn conteudo_centro__btn_descriptografar btn_style1">Descriptografar</a>
+                </section>
+
+
+            </div>
+
+           
+        </div>
+        
+        
+           
+
+    </section>
+
+
+
+    <div class="conteudo_left" id="conteudo_left">
+        <textarea type="text" name="cripto_textarea2" id="conteudo_left__cripto_textarea" class="conteudo_left__cripto_textarea_style" title="SHA-256">
+        </textarea>
+        <img src="img/logo2.svg" alt="logo de um homem com uma lupa" id="logo2">
+
+        <div class="conteudo_left__msg_initial">
+            <strong class="conteudo_left__msg_initial__1">
+                Nenhuma mensagem   
+            </strong>
+            
+            <strong class="conteudo_left__msg_initial__1">
+                 encontrada
+            </strong>
+            <strong class="conteudo_left__msg_initial__2">
+                Digite um texto que você deseja criptografar ou descriptografar.
+            </strong>
+        </div>
+
+        <a onclick="copy()" id="conteudo_left__btn">Copiar</a>
+
+    </div>
+    </main>
+
+    <script src="script/script.js"></script>
+
+
+    
+
+</body>
+</html>
